@@ -1,0 +1,90 @@
+.ok{
+    background-color: aqua;
+    
+}
+.p{
+    display: none;
+}
+.p2 {
+    display: block;
+}
+
+html{
+    background:url(thegif.gif);
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.container{
+        display: flex;
+}
+
+.form-cont{
+        margin: 0 auto;
+            margin-top: 60px;
+}
+
+.granted{
+    margin-top: 50px;
+}
+
+.redi{
+    text-decoration: none;
+    border-radius: 3px;
+    cursor: pointer;
+    padding: 5px 12px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+    background-color: rgb(150, 170, 214);
+}
+
+.form{
+    background-color: rgb(240, 240, 240);
+    width: 300px;
+    margin: 0 auto;
+    height: 155px;
+    padding: 10px 0;
+    margin-top: 20px;
+    border-radius: 2px;
+}
+
+.title{
+    text-align: center;
+    color: white;
+}
+
+.inputs input{
+    width: 90%;
+        text-indent:1em;
+    /* align-items: center; */
+    border: none;
+        /* padding: 3px */
+
+}
+input{
+    margin: 4px auto;
+    padding: 6px 0;
+}
+
+.inputs {
+    padding: 30px auto;
+    text-align: center;
+}
+
+.inputs label{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: 14px;
+}
+
+
+.inputs button{
+    cursor: pointer;
+    width: 91%;
+    border: none;
+    background-color: rgb(128, 150, 199);
+    border-radius: 2px;
+    margin-top: 10px;
+    height: 35px;
+}
